@@ -1,0 +1,26 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.10.18
+
+      - name: Versions
+        run: |
+          quarto --version
+          quarto pandoc --version | head -1
+
+      # renders every case with quarto and diffs the capture against its golden
+      - name: Run tests
+        run: tests/run.sh
