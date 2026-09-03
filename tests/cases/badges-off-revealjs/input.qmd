@@ -1,0 +1,13 @@
+---
+format: revealjs
+filters: [optional-section]
+optional-badges: false
+---
+
+# Title
+
+## Trimmable {.optional}
+
+No badge CSS — the speaker note is not a badge and stays.
+
+A [span]{.optional} keeps its class.

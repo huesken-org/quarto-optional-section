@@ -1,0 +1,20 @@
+--- exit 0
+--- content input.html
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="required" class="level1">
+<h1>Required</h1>
+<section id="extra" class="level2 optional-extra">
+<h2 class="optional-extra anchored" data-anchor-id="extra">Extra</h2>
+<p>Unknown mode: warning on stderr, nothing is removed.</p>
+</section>
+</section>
+
+</main>
+--- css
+optional-section-html.css
+--- warnings
+(W) optional: unknown value remove-optional=maybe — allowed: none, extra, all. Nothing is removed.

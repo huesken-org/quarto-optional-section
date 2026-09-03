@@ -1,0 +1,8 @@
+title: Optional Slides
+author: Nathan Hüsken
+version: "0.1.0"
+quarto-required: ">=1.4.0"
+
+contributes:
+  filters:
+    - optional-section.lua

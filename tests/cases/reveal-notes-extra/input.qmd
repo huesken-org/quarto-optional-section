@@ -1,0 +1,19 @@
+---
+format: revealjs
+filters: [optional-section]
+remove-optional: extra
+---
+
+# Title
+
+## Trimmable {.optional}
+
+Stays, becomes a note.
+
+## Extra {.optional-extra}
+
+Goes — so no note either.
+
+## Normal
+
+No marker, no note.

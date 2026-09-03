@@ -1,0 +1,22 @@
+---
+format: html
+filters: [optional-section]
+title: Badges on the website
+---
+
+# Title
+
+## Trimmable {.optional}
+
+On html the heading keeps its class — the badge comes from the CSS, there are
+no speaker notes to move it into.
+
+## Extra {.optional-extra}
+
+Same here.
+
+::: {.optional}
+The div keeps its class too.
+:::
+
+A [span]{.optional} keeps it as well.

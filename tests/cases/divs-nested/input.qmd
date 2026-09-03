@@ -1,0 +1,35 @@
+---
+format: html
+filters: [optional-section]
+remove-optional: extra
+---
+
+# Blocks
+
+::: {.optional}
+Stays with `extra`, keeps its badge.
+
+::: {.optional-extra}
+Nested and gone.
+:::
+:::
+
+::: {.optional-extra}
+The whole block goes.
+
+- list included
+:::
+
+> Quote before it.
+>
+> ::: {.optional-extra}
+> Inside the block quote and gone.
+> :::
+
+``` {.python .optional-extra}
+print("gone")
+```
+
+``` {.python}
+print("stays")
+```

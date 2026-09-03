@@ -1,0 +1,50 @@
+/* Badges for the optional markers on the slides (revealjs).
+
+   optional-section.lua injects this file itself as an html dependency, so
+   there is nothing to add to the theme. The website counterpart is
+   optional-section-html.css. */
+
+/* The two levels differ in colour and label only; every rule below reads them
+   from here, so a level costs two lines instead of a copy of each rule. */
+.optional {
+  --optional-color: #6c757d;
+  --optional-label: "optional";
+}
+
+.optional-extra {
+  --optional-color: #b25e00;
+  --optional-label: "optional-extra";
+}
+
+/* Badge for divs and inline spans (see optional-section.lua): `::: {.optional}`
+   divs and `[text]{.optional}` spans — the latter also mark a whole list item
+   when they stand alone in it. Divs additionally get a dashed border, so that
+   the removable area is recognisable as such. */
+.reveal .slides div:is(.optional, .optional-extra) {
+  border-left: 3px dashed var(--optional-color);
+  color: var(--optional-color);
+  padding-left: 0.5em;
+}
+
+.reveal .slides div:is(.optional, .optional-extra)::before,
+.reveal .slides span:is(.optional, .optional-extra)::after {
+  content: var(--optional-label);
+  font-size: 0.45em;
+  line-height: 1;
+  padding: 0.25em 0.7em;
+  border-radius: 999px;
+  border: 1px solid;
+  opacity: 0.6;
+  white-space: nowrap;
+  vertical-align: 0.5em;
+}
+
+.reveal .slides div:is(.optional, .optional-extra)::before {
+  float: right;
+  margin-left: 0.5em;
+}
+
+.reveal .slides span:is(.optional, .optional-extra)::after {
+  margin-left: 0.4em;
+  color: var(--optional-color);
+}

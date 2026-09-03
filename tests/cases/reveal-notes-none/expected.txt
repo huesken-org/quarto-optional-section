@@ -1,0 +1,42 @@
+--- exit 0
+--- content input.html
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Reveal without trimming</h1>
+
+<div class="quarto-title-authors">
+</div>
+
+</section>
+<section>
+<section id="title" class="title-slide slide level1 center">
+<h1>Title</h1>
+
+</section>
+<section id="trimmable" class="slide level2">
+<h2>Trimmable</h2>
+<aside class="notes">
+⚑ optional
+</aside>
+<p>Content.</p>
+</section>
+<section id="extra" class="slide level2">
+<h2>Extra</h2>
+<aside class="notes">
+⚑ optional-extra
+</aside>
+<p>Content.</p>
+</section>
+<section id="normal" class="slide level2">
+<h2>Normal</h2>
+<div class="optional">
+<p>The div keeps its class — the badge points into the slide.</p>
+</div>
+<p>A <span class="optional">span</span> keeps it too.</p>
+
+</section></section>
+    </div>
+--- css
+optional-section-revealjs.css
+--- warnings

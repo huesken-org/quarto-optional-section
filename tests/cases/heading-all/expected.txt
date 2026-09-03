@@ -1,0 +1,23 @@
+--- exit 0
+--- content input.html
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="chapter" class="level1">
+<h1>Chapter</h1>
+<section id="stays" class="level2">
+<h2 class="anchored" data-anchor-id="stays">Stays</h2>
+<p>Always there.</p>
+</section>
+<section id="afterwards" class="level2">
+<h2 class="anchored" data-anchor-id="afterwards">Afterwards</h2>
+<p>Back again.</p>
+</section>
+</section>
+
+</main>
+--- css
+optional-section-html.css
+--- warnings

@@ -1,0 +1,31 @@
+---
+format: html
+filters: [optional-section]
+remove-optional: all
+---
+
+# Chapter
+
+## Stays
+
+Always there.
+
+## Trimmable {.optional}
+
+Goes with `all`.
+
+### Subsection of Trimmable
+
+Goes with it.
+
+## Extra {.optional-extra}
+
+Goes.
+
+### Subsection of Extra
+
+Goes with it.
+
+## Afterwards
+
+Back again.

@@ -1,0 +1,18 @@
+---
+format: html
+filters: [optional-section]
+remove-optional: all
+---
+
+# Table and figure
+
+| Column                  | Content                     |
+|-------------------------|-----------------------------|
+| stays                   | Text [gone]{.optional} here |
+| [whole cell]{.optional} | only the span goes          |
+
+: Caption [with an extra]{.optional-extra}
+
+![Figure caption [with an extra]{.optional}](image.png)
+
+A sentence with ![Alt text [with an extra]{.optional} behind it](inline.png) in the middle.

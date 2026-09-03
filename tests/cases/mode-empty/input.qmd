@@ -1,0 +1,11 @@
+---
+format: html
+filters: [optional-section]
+remove-optional: ""
+---
+
+# Required
+
+## Extra {.optional-extra}
+
+An empty mode counts as `none`: nothing is removed, nothing is warned about.

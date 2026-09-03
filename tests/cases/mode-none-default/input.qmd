@@ -1,0 +1,24 @@
+---
+format: html
+filters: [optional-section]
+title: Without remove-optional
+---
+
+# Required
+
+Always there.
+
+## Trimmable {.optional}
+
+Content of the trimmable slide.
+
+## Extra {.optional-extra}
+
+Content of the extra slide.
+
+::: {.optional}
+An optional block.
+:::
+
+- Required item
+- [Trimmable item]{.optional}

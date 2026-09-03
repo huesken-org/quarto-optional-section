@@ -1,0 +1,21 @@
+---
+format: html
+filters: [optional-section]
+remove-optional: all
+---
+
+# Text with spans
+
+One sentence [with an extra]{.optional-extra} and the rest.
+
+Emphasised *is [gone]{.optional} here* and **bold [too]{.optional-extra}**.
+
+A [link](https://example.org) with [a span]{.optional} behind it.
+
+Footnote[^1] in the sentence.
+
+## Heading [with an extra]{.optional-extra}
+
+After the heading.
+
+[^1]: In the note [gone]{.optional} and the rest.

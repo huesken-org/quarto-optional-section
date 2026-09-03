@@ -1,0 +1,20 @@
+---
+format: html
+filters: [optional-section]
+remove-optional: all
+---
+
+# Definitions
+
+Term
+:   Explanation.
+
+[Gone]{.optional}
+:   The explanation goes with the term.
+
+Term with an [extra]{.optional-extra} in it
+:   Stays.
+
+Rest
+:   [Gone]{.optional}
+:   Stays.

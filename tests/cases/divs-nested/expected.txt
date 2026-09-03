@@ -1,0 +1,22 @@
+--- exit 0
+--- content input.html
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="blocks" class="level1">
+<h1>Blocks</h1>
+<div class="optional">
+<p>Stays with <code>extra</code>, keeps its badge.</p>
+</div>
+<blockquote class="blockquote">
+<p>Quote before it.</p>
+</blockquote>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"stays"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+
+</main>
+--- css
+optional-section-html.css
+--- warnings

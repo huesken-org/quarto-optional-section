@@ -1,0 +1,21 @@
+--- exit 0
+--- content input.html
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="part-b" class="level1">
+<h1>Part B</h1>
+<p>Stays: a higher level ends the removed subtree.</p>
+<section id="b2" class="level2">
+<h2 class="anchored" data-anchor-id="b2">B2</h2>
+<p>Stays.</p>
+<p>Paragraph after B2.</p>
+</section>
+</section>
+
+</main>
+--- css
+optional-section-html.css
+--- warnings

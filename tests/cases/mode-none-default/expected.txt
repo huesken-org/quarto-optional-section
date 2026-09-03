@@ -1,0 +1,47 @@
+--- exit 0
+--- content input.html
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Without remove-optional</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="required" class="level1">
+<h1>Required</h1>
+<p>Always there.</p>
+<section id="trimmable" class="level2 optional">
+<h2 class="optional anchored" data-anchor-id="trimmable">Trimmable</h2>
+<p>Content of the trimmable slide.</p>
+</section>
+<section id="extra" class="level2 optional-extra">
+<h2 class="optional-extra anchored" data-anchor-id="extra">Extra</h2>
+<p>Content of the extra slide.</p>
+<div class="optional">
+<p>An optional block.</p>
+</div>
+<ul>
+<li>Required item</li>
+<li><span class="optional">Trimmable item</span></li>
+</ul>
+</section>
+</section>
+
+</main>
+--- css
+optional-section-html.css
+--- warnings

@@ -1,0 +1,37 @@
+---
+format: html
+filters: [optional-section]
+remove-optional: all
+---
+
+# Part A {.optional}
+
+Goes, along with everything up to the next heading of the same or a higher level.
+
+## Under A
+
+Goes.
+
+# Part B
+
+Stays: a higher level ends the removed subtree.
+
+## B1 {.optional}
+
+Goes.
+
+### B1a
+
+Goes.
+
+## B2
+
+Stays.
+
+Paragraph after B2.
+
+## B3 {.optional-extra}
+
+Goes — and the paragraph below still belongs to the slide.
+
+Goes as well.

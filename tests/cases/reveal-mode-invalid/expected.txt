@@ -1,0 +1,23 @@
+--- exit 0
+--- content input.html
+    <div class="slides">
+
+
+<section>
+<section id="title" class="title-slide slide level1 center">
+<h1>Title</h1>
+
+</section>
+<section id="trimmable" class="slide level2">
+<h2>Trimmable</h2>
+<aside class="notes">
+⚑ optional
+</aside>
+<p>With quarto the warning goes through <code>quarto.log.warning</code>.</p>
+
+</section></section>
+    </div>
+--- css
+optional-section-revealjs.css
+--- warnings
+(W) optional: unknown value remove-optional=maybe — allowed: none, extra, all. Nothing is removed.

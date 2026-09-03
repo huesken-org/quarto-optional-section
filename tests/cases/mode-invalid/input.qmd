@@ -1,0 +1,11 @@
+---
+format: html
+filters: [optional-section]
+remove-optional: maybe
+---
+
+# Required
+
+## Extra {.optional-extra}
+
+Unknown mode: warning on stderr, nothing is removed.

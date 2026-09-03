@@ -1,0 +1,30 @@
+--- exit 0
+--- content input.html
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="lists" class="level1">
+<h1>Lists</h1>
+<ul>
+<li>Required item</li>
+<li>Item with an in the middle</li>
+<li>Item with a sub-list
+<ul>
+<li>stays</li>
+</ul></li>
+</ul>
+<ol type="1">
+<li>First</li>
+<li>Third</li>
+</ol>
+<ul>
+<li>Stays</li>
+</ul>
+</section>
+
+</main>
+--- css
+optional-section-html.css
+--- warnings

@@ -1,0 +1,16 @@
+---
+format: gfm
+filters: [optional-section]
+remove-optional: extra
+---
+
+# Title
+
+## Trimmable {.optional}
+
+A format that is not html: no badge CSS is asked for, and the marker stays a
+plain class — there are no speaker notes to move it into either.
+
+## Extra {.optional-extra}
+
+Removing still works, though.

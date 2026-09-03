@@ -1,0 +1,43 @@
+--- exit 0
+--- content input.html
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Badges on the website</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="title" class="level1">
+<h1>Title</h1>
+<section id="trimmable" class="level2 optional">
+<h2 class="optional anchored" data-anchor-id="trimmable">Trimmable</h2>
+<p>On html the heading keeps its class — the badge comes from the CSS, there are no speaker notes to move it into.</p>
+</section>
+<section id="extra" class="level2 optional-extra">
+<h2 class="optional-extra anchored" data-anchor-id="extra">Extra</h2>
+<p>Same here.</p>
+<div class="optional">
+<p>The div keeps its class too.</p>
+</div>
+<p>A <span class="optional">span</span> keeps it as well.</p>
+</section>
+</section>
+
+</main>
+--- css
+optional-section-html.css
+--- warnings

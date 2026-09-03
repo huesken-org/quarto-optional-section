@@ -1,0 +1,22 @@
+--- exit 0
+--- content input.html
+    <div class="slides">
+
+
+<section>
+<section id="title" class="title-slide slide level1 center">
+<h1>Title</h1>
+
+</section>
+<section id="trimmable" class="slide level2">
+<h2>Trimmable</h2>
+<aside class="notes">
+⚑ optional
+</aside>
+<p>No badge CSS — the speaker note is not a badge and stays.</p>
+<p>A <span class="optional">span</span> keeps its class.</p>
+
+</section></section>
+    </div>
+--- css
+--- warnings

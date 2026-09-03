@@ -1,0 +1,12 @@
+---
+format: html
+filters: [optional-section]
+optional-badges: "false"
+---
+
+# Title
+
+## Trimmable {.optional}
+
+Quoted in the YAML, and via `-M optional-badges:false`, the value arrives as a
+string rather than a boolean — off all the same.

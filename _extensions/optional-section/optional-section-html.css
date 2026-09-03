@@ -1,0 +1,69 @@
+/* Badges for the optional markers on the website (html formats).
+
+   optional-section.lua injects this file itself as an html dependency, so
+   there is nothing to add to the theme. The slide counterpart is
+   optional-section-revealjs.css, where marked headings go into the speaker
+   notes instead of getting a badge. */
+
+/* The two levels differ in colour and label only; every rule below reads them
+   from here, so a level costs two lines instead of a copy of each rule. */
+.optional {
+  --optional-color: #6c757d;
+  --optional-label: "optional";
+}
+
+.optional-extra {
+  --optional-color: #b25e00;
+  --optional-label: "optional-extra";
+}
+
+/* Heading badge. Doubled selector, because pandoc/quarto attach the class
+   either to the heading itself or to the enclosing <section> depending on the
+   context (::after still lands only once, on the same element). */
+:is(h1, h2, h3, h4, h5):is(.optional, .optional-extra)::after,
+section:is(.optional, .optional-extra) > :is(h1, h2, h3, h4, h5):first-child::after {
+  content: var(--optional-label);
+  color: var(--optional-color);
+  font-size: 0.42em;
+  font-weight: 400;
+  line-height: 1;
+  vertical-align: 0.3em;
+  margin-left: 0.7em;
+  padding: 0.25em 0.7em;
+  border-radius: 999px;
+  border: 1px solid;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+/* Counterpart for divs and inline spans (see optional-section.lua):
+   `::: {.optional}` and `[text]{.optional}` — a span standing alone in a list
+   item marks the whole item. */
+div:is(.optional, .optional-extra) {
+  border-left: 3px dashed var(--optional-color);
+  color: var(--optional-color);
+  padding-left: 0.5em;
+}
+
+div:is(.optional, .optional-extra)::before,
+span:is(.optional, .optional-extra)::after {
+  content: var(--optional-label);
+  font-size: 0.7em;
+  line-height: 1;
+  padding: 0.2em 0.6em;
+  border-radius: 999px;
+  border: 1px solid;
+  opacity: 0.7;
+  white-space: nowrap;
+  vertical-align: 0.15em;
+}
+
+div:is(.optional, .optional-extra)::before {
+  float: right;
+  margin-left: 0.5em;
+}
+
+span:is(.optional, .optional-extra)::after {
+  margin-left: 0.4em;
+  color: var(--optional-color);
+}

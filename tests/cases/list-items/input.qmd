@@ -1,0 +1,24 @@
+---
+format: html
+filters: [optional-section]
+remove-optional: all
+---
+
+# Lists
+
+- Required item
+- [Gone entirely]{.optional}
+    - sub-item included
+- Item with an [extra]{.optional-extra} in the middle
+- Item with a sub-list
+    - [only the sub-item goes]{.optional}
+    - stays
+
+1.  First
+2.  [Second, gone]{.optional-extra}
+3.  Third
+
+-   ::: {.optional}
+    Item starts with a marked div.
+    :::
+-   Stays

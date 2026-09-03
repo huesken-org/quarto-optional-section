@@ -1,0 +1,21 @@
+--- exit 0
+--- content input.html
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="title" class="level1">
+<h1>Title</h1>
+<section id="trimmable" class="level2 optional">
+<h2 class="optional anchored" data-anchor-id="trimmable">Trimmable</h2>
+<p>The class stays in the html, but no badge CSS is requested.</p>
+<div class="optional-extra">
+<p>Same for divs.</p>
+</div>
+</section>
+</section>
+
+</main>
+--- css
+--- warnings

@@ -1,0 +1,23 @@
+---
+format: revealjs
+filters: [optional-section]
+title: Reveal without trimming
+---
+
+# Title
+
+## Trimmable {.optional}
+
+Content.
+
+## Extra {.optional-extra}
+
+Content.
+
+## Normal
+
+::: {.optional}
+The div keeps its class — the badge points into the slide.
+:::
+
+A [span]{.optional} keeps it too.

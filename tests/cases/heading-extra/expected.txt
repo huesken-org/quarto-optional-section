@@ -1,0 +1,31 @@
+--- exit 0
+--- content input.html
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="chapter" class="level1">
+<h1>Chapter</h1>
+<section id="stays" class="level2">
+<h2 class="anchored" data-anchor-id="stays">Stays</h2>
+<p>Always there.</p>
+</section>
+<section id="trimmable" class="level2 optional">
+<h2 class="optional anchored" data-anchor-id="trimmable">Trimmable</h2>
+<p>Stays with <code>extra</code>.</p>
+<section id="subsection-of-trimmable" class="level3">
+<h3 class="anchored" data-anchor-id="subsection-of-trimmable">Subsection of Trimmable</h3>
+<p>That one too.</p>
+</section>
+</section>
+<section id="afterwards" class="level2">
+<h2 class="anchored" data-anchor-id="afterwards">Afterwards</h2>
+<p>Back again.</p>
+</section>
+</section>
+
+</main>
+--- css
+optional-section-html.css
+--- warnings

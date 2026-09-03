@@ -1,0 +1,15 @@
+---
+format: html
+filters: [optional-section]
+optional-badges: false
+---
+
+# Title
+
+## Trimmable {.optional}
+
+The class stays in the html, but no badge CSS is requested.
+
+::: {.optional-extra}
+Same for divs.
+:::

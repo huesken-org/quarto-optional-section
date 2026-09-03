@@ -1,0 +1,29 @@
+--- exit 0
+--- content input.html
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="definitions" class="level1">
+<h1>Definitions</h1>
+<dl>
+<dt>Term</dt>
+<dd>
+Explanation.
+</dd>
+<dt>Term with an in it</dt>
+<dd>
+Stays.
+</dd>
+<dt>Rest</dt>
+<dd>
+Stays.
+</dd>
+</dl>
+</section>
+
+</main>
+--- css
+optional-section-html.css
+--- warnings

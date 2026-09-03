@@ -1,0 +1,26 @@
+--- exit 0
+--- content input.html
+    <div class="slides">
+
+
+<section>
+<section id="title" class="title-slide slide level1 center">
+<h1>Title</h1>
+
+</section>
+<section id="trimmable" class="slide level2">
+<h2>Trimmable</h2>
+<aside class="notes">
+⚑ optional
+</aside>
+<p>Stays, becomes a note.</p>
+</section>
+<section id="normal" class="slide level2">
+<h2>Normal</h2>
+<p>No marker, no note.</p>
+
+</section></section>
+    </div>
+--- css
+optional-section-revealjs.css
+--- warnings

@@ -1,0 +1,29 @@
+--- exit 0
+--- content input.html
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="text-with-spans" class="level1">
+<h1>Text with spans</h1>
+<p>One sentence and the rest.</p>
+<p>Emphasised <em>is here</em> and <strong>bold </strong>.</p>
+<p>A <a href="https://example.org">link</a> with behind it.</p>
+<p>Footnote<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> in the sentence.</p>
+<section id="heading-with-an-extra" class="level2">
+<h2 class="anchored" data-anchor-id="heading-with-an-extra">Heading </h2>
+<p>After the heading.</p>
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>In the note and the rest.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main>
+--- css
+optional-section-html.css
+--- warnings
